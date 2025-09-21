@@ -2,6 +2,9 @@ import express from 'express';
 import cors from 'cors';
 import contactRouter from './app/routes/contact.route.js';
 import ApiError from './app/api_error.js';
+import dotenv from 'dotenv';
+
+dotenv.config();
 
 const app = express();
 
